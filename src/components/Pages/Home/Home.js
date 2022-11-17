@@ -1,7 +1,7 @@
-import { faFaceDizzy } from '@fortawesome/free-regular-svg-icons';
 import React from 'react';
 import './Module.Home.css';
 import person from '../../../images/person.png';
+import Services from './Services';
 
 const Home = () => {
     return (
@@ -10,7 +10,7 @@ const Home = () => {
 
             <div className='banner-text'>
                 <h4>Welcome to Justice Law Chamber</h4>
-                <h1>We are fighting for your</h1>
+                <h1>We are fighting for</h1>
                 <h1>Your Cutody</h1>
                 <p>We have helped thousands of people to get relief from national wide fights wrongfull denials. Now they tursed us. There is no lorem ipsum text</p>
                 <br />
@@ -46,6 +46,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            <h1 style={{color:'#fff', textAlign:'center', padding:'15px 0', background:'#ab9a03', margin:'0 7%', fontWeight:'400'}}>Practice Area (Services)</h1>
+            <Services></Services>
         </div>
     );
 };
