@@ -47,7 +47,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <h1 style={{color:'#fff', textAlign:'center', padding:'15px 0', background:'#ab9a03', margin:'0 7%', fontWeight:'400'}}>Practice Area (Services)</h1>
+            <h1 style={{color:'#fff', textAlign:'center', padding:'5px 0', background:'#ab9a03', margin:'0 7%', fontWeight:'400'}}>Practice Areas (Services)</h1>
             <Services></Services>
         </div>
     );

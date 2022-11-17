@@ -20,6 +20,7 @@ const Services = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.
                 </p>
+                <button>Pricing & Process</button>
             </div>
             <div className='practice'>
                 <img src={businessLawIcon} alt="" />
@@ -27,6 +28,7 @@ const Services = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.
                 </p>
+                <button>Pricing & Process</button>
             </div>
             <div className='practice'>
                 <img src={insuranceLawIcon} alt="" />
@@ -34,6 +36,7 @@ const Services = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.
                 </p>
+                <button>Pricing & Process</button>
             </div>
             <div className='practice'>
                 <img src={criminalLawIcon} alt="" />
@@ -41,6 +44,7 @@ const Services = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.
                 </p>
+                <button>Pricing & Process</button>
             </div>
             <div className='practice'>
                 <img src={propertyLawIcon} alt="" />
@@ -48,6 +52,7 @@ const Services = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.
                 </p>
+                <button>Pricing & Process</button>
             </div>
             <div className='practice'>
                 <img src={employmentLawIcon} alt="" />
@@ -55,6 +60,7 @@ const Services = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.
                 </p>
+                <button>Pricing & Process</button>
             </div>
             <div className='practice'>
                 <img src={fireAccidentLawIcon} alt="" />
@@ -62,6 +68,7 @@ const Services = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.
                 </p>
+                <button>Pricing & Process</button>
             </div>
             <div className='practice'>
                 <img src={financialLawIcon} alt="" />
@@ -69,6 +76,7 @@ const Services = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.
                 </p>
+                <button>Pricing & Process</button>
             </div>
             <div className='practice'>
                 <img src={drugOffencesLawIcon} alt="" />
@@ -76,6 +84,7 @@ const Services = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.
                 </p>
+                <button>Pricing & Process</button>
             </div>
             <div className='practice'>
                 <img src={sexualOffencesLawIcon} alt="" />
@@ -83,6 +92,7 @@ const Services = () => {
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.
                 </p>
+                <button>Pricing & Process</button>
             </div>
         </div>
     );

@@ -11,19 +11,54 @@
 }
 
 .practice{
-    flex: 0 0 calc(20%);
+    flex: 0 0 calc(21%);
     border: 1px solid rgba(211, 211, 211, 0.5);
     border-radius: 5px;
     text-align: center;
     color: black;
-    padding: 10px;
+    padding: 20px 10px;
+    transition: 300ms;
+}
 
+.practice:hover{
+    background-image: linear-gradient(to bottom right, rgba(221, 255, 162, 0.5), rgba(0, 116, 249, 0.2));
+    box-shadow: 3px 3px 7px rgba(1, 81, 103, 0.2);
 }
 
 .practice img{
     width: 50px;
-    border: 1px solid rgba(190, 190, 190, 0.4);
+    border: 2px solid white;
     padding: 8%;
     border-radius: 50%;
     background-color: rgba(139, 102, 17, 0.06);
+    box-shadow: 1px 1px 5px rgb(196, 196, 196);
+}
+
+.practice > h3{
+    font-weight: 600;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.practice > p{
+    font-size: 14px;
+    color: grey;
+    transition: 1s;
+}
+
+.practice > p:hover{
+    color: black;
+}
+
+.practice > button{
+    background-color: rgb(220, 190, 115);
+    width: 100%;
+    padding: 5px 0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: 300ms;
+    font-weight: 400;
+    cursor: pointer;
 }
