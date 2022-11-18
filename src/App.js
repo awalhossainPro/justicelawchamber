@@ -17,7 +17,7 @@ function App() {
           <Route path='/practicearea' element={<Practice></Practice>}></Route>
           <Route path='/blog' element={<Blog></Blog>}></Route>
         </Routes>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }

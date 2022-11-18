@@ -1,0 +1,63 @@
+.footer-section{
+    background-color: rgb(40, 45, 57);
+    padding: 50px 70px;
+}
+
+.footer-main{
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr 3fr;
+    justify-content: space-around;
+}
+
+.footer-top{
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+.logo-social-link{
+    width: 80%;
+}
+
+.logo-social-link > p{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon > img{
+    padding: 15px;
+    background-color: rgb(64, 89, 135);
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.practice-area-list > p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.question-address > p{
+    width: 80%;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.business-time > div > p{
+    color: rgb(251, 222, 2);
+    margin: 5px 0;
+}
+
+.copyright-area{
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: lightgrey;
+    margin-top: 20px;
+}
