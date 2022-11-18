@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Module.Home.css';
 import person from '../../../images/person.png';
 import Services from './Services';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
+<script src="../../Animation/scrollanimation.js"></script>
 
 const Home = () => {
+
+    useEffect( () => {
+        Aos.init({duration: 1000});
+    }, []);
+
     return (
         <div>
             <body></body>
@@ -17,7 +25,7 @@ const Home = () => {
                 <button>Get Legal Advice</button>
             </div>
 
-            <div className='why-us'>
+            <div data-aos='fade-up' className='why-us'>
                 <div className='why-text-section'>
                     <h4>Services</h4>
                     <h2>Why Select Us?</h2>
@@ -47,9 +55,10 @@ const Home = () => {
                 </div>
             </div>
 
-            <h1 style={{color:'#fff', textAlign:'center', padding:'5px 0', background:'#ab9a03', margin:'0 7%', fontWeight:'400'}}>Practice Areas (Services)</h1>
+            <h1 data-aos='fade-up' style={{color:'#fff', textAlign:'center', padding:'5px 0', background:'#ab9a03', margin:'0 7%', fontWeight:'400'}}>Practice Areas (Services)</h1>
             <Services></Services>
-            <div className='subscribe-us'>
+
+            <div data-aos='fade-up' className='subscribe-us'>
                 <form>
                     <span>Subscribe Our Newsletter</span>
                     <input type="email" name="email-subscribe" id="" placeholder='Enter Your Emaill Address' />

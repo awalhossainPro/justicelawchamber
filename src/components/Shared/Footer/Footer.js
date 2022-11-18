@@ -1,10 +1,17 @@
-import React from 'react';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
+import React, { useEffect } from 'react';
 import logo from '../../../images/logo-white.png';
 import './Module.Footer.css';
 
 const Footer = () => {
+
+    useEffect( () => {
+        Aos.init({duration: 1000});
+    }, []);
+
     return (
-        <div className='footer-section'>
+        <div data-aos='fade-up' className='footer-section'>
             <div className='footer-main'>
                 <div className='logo-social-link'>
                     <img src={logo} width={160} className='footer-top' alt="" />
@@ -60,7 +67,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className='copyright-area'>
-                Copyright &copy;2022 All rights reserved
+                Copyright &copy;2022 All rights reserved 
+                <br /><br />
+                Developer: Awal Hossain
+                <br />
+                Email: awalrmg@gmail.com
             </div>
         </div>
     );
