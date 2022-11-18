@@ -1,0 +1,22 @@
+.notfound-section{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 300px;
+    text-align: center;
+}
+
+.notfound-section > h1{
+    padding-top: 50px;
+    font-weight: 400;
+}
+
+.notfound-section > p{
+    margin-top: 50px;
+}
+
+.notfound-section > button{
+    background-color: greenyellow;
+    padding: 10px 50px;
+    margin-top: 20px;
+    border-radius: none;
+    cursor: pointer;
+}

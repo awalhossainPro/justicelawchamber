@@ -26,14 +26,14 @@
 
 .social-icon{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .social-icon > img{
-    padding: 15px;
-    background-color: rgb(64, 89, 135);
-    margin: 5px;
-    border-radius: 5px;
+    width: 40px;
+    padding: 5px;
+    background-color: rgb(125, 135, 154);
+    border-radius: 50%;
     cursor: pointer;
 }
 

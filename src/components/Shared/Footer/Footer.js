@@ -2,6 +2,9 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 import React, { useEffect } from 'react';
 import logo from '../../../images/logo-white.png';
+import facebookIcon from '../../../images/icons/social-icons/facebook.png';
+import linkedinIcon from '../../../images/icons/social-icons/linkedin.png';
+import githubIcon from '../../../images/icons/social-icons/github.png';
 import './Module.Footer.css';
 
 const Footer = () => {
@@ -19,9 +22,9 @@ const Footer = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet ut earum est quos tempora voluptatem repudiandae rem, eveniet tempore error pariatur blanditiis officia possimus itaque vel, quia expedita veniam!
                     </p>
                     <div className='social-icon'>
-                        <img src={logo} width={50} alt="" />
-                        <img src={logo} width={50} alt="" />
-                        <img src={logo} width={50} alt="" />
+                        <img src={facebookIcon} width={50} alt="" />
+                        <img src={linkedinIcon} width={50} alt="" />
+                        <img src={githubIcon} width={50} alt="" />
                     </div>
                 </div>
 

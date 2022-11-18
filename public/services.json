@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name":"Family Law",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "image":"images/practice-area/family-care.png"
+    },
+    {
+        "id": 2,
+        "name":"Business Law",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "image":"images/practice-area/businessLaw.png"
+    },
+    {
+        "id": 3,
+        "name":"Insurance Law",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "image":"images/practice-area/insurance-law.png"
+    },
+    {
+        "id": 4,
+        "name":"Criminal Law",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "image":"images/practice-area/criminal-law.png"
+    },
+    {
+        "id": 5,
+        "name":"Property Law",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "image":"images/practice-area/property-law.png"
+    },
+    {
+        "id": 6,
+        "name":"Employment Law",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "image":"images/practice-area/employement-law.png"
+    },
+    {
+        "id": 7,
+        "name":"Fire Accident",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "image":"images/practice-area/fire-accident.png"
+    },
+    {
+        "id": 8,
+        "name":"Financial Law",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "image":"images/practice-area/financial-laws.png"
+    },
+    {
+        "id": 9,
+        "name":"Drug Offences",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "image":"images/practice-area/drugs-offences.png"
+    },
+    {
+        "id": 10,
+        "name":"Sexual Offences",
+        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "image":"images/practice-area/sexual-offences.png"
+    }
+]

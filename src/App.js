@@ -6,6 +6,7 @@ import About from './components/Pages/About/About';
 import Practice from './components/Pages/Practice/Practice';
 import Blog from './components/Pages/Blog/Blog';
 import Footer from './components/Shared/Footer/Footer';
+import Pagenotfound from './components/Pages/Pagenotfound/Pagenotfound';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/about' element={<About></About>}></Route>
           <Route path='/practicearea' element={<Practice></Practice>}></Route>
           <Route path='/blog' element={<Blog></Blog>}></Route>
+          <Route path='*' element={<Pagenotfound></Pagenotfound>}></Route>
         </Routes>
       <Footer></Footer>
     </div>
