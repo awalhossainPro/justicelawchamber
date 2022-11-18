@@ -10,7 +10,7 @@
 
 .practice{
     flex: 0 0 calc(21%);
-    border: 1px solid rgba(211, 211, 211, 0.5);
+    border: 1px solid rgba(211, 211, 211, 0.7);
     border-radius: 5px;
     text-align: center;
     color: black;

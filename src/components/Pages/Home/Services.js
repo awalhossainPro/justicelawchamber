@@ -19,7 +19,7 @@ const Services = () => {
     } ,[]);
     return (
         <div className='practice-area'>
-            <div data-aos='fade-up' className='practice'>
+            <div data-aos='zoom-in-up' className='practice'>
                 <img src={familyLawIcon} alt="" />
                 <h3>Family Law</h3>
                 <p>
@@ -27,7 +27,7 @@ const Services = () => {
                 </p>
                 <button>Pricing & Process</button>
             </div>
-            <div data-aos='fade-up' className='practice'>
+            <div data-aos='zoom-in-up' className='practice'>
                 <img src={businessLawIcon} alt="" />
                 <h3>Business Law</h3>
                 <p>
@@ -35,7 +35,7 @@ const Services = () => {
                 </p>
                 <button>Pricing & Process</button>
             </div>
-            <div data-aos='fade-up' className='practice'>
+            <div data-aos='zoom-in-up' className='practice'>
                 <img src={insuranceLawIcon} alt="" />
                 <h3>Insurance Law</h3>
                 <p>
@@ -43,7 +43,7 @@ const Services = () => {
                 </p>
                 <button>Pricing & Process</button>
             </div>
-            <div data-aos='fade-up' className='practice'>
+            <div data-aos='zoom-in-up' className='practice'>
                 <img src={criminalLawIcon} alt="" />
                 <h3>Criminal Law</h3>
                 <p>
@@ -51,7 +51,7 @@ const Services = () => {
                 </p>
                 <button>Pricing & Process</button>
             </div>
-            <div data-aos='fade-up' className='practice'>
+            <div data-aos='zoom-in-up' className='practice'>
                 <img src={propertyLawIcon} alt="" />
                 <h3>Property Law</h3>
                 <p>
@@ -59,7 +59,7 @@ const Services = () => {
                 </p>
                 <button>Pricing & Process</button>
             </div>
-            <div data-aos='fade-up' className='practice'>
+            <div data-aos='zoom-in-up' className='practice'>
                 <img src={employmentLawIcon} alt="" />
                 <h3>Employment Law</h3>
                 <p>
@@ -67,7 +67,7 @@ const Services = () => {
                 </p>
                 <button>Pricing & Process</button>
             </div>
-            <div data-aos='fade-up' className='practice'>
+            <div data-aos='zoom-in-up' className='practice'>
                 <img src={fireAccidentLawIcon} alt="" />
                 <h3>Fire Accident</h3>
                 <p>
@@ -75,7 +75,7 @@ const Services = () => {
                 </p>
                 <button>Pricing & Process</button>
             </div>
-            <div data-aos='fade-up' className='practice'>
+            <div data-aos='zoom-in-up' className='practice'>
                 <img src={financialLawIcon} alt="" />
                 <h3>Financial Law</h3>
                 <p>
@@ -83,7 +83,7 @@ const Services = () => {
                 </p>
                 <button>Pricing & Process</button>
             </div>
-            <div data-aos='fade-up' className='practice'>
+            <div data-aos='zoom-in-up' className='practice'>
                 <img src={drugOffencesLawIcon} alt="" />
                 <h3>Drug Offences</h3>
                 <p>
@@ -91,7 +91,7 @@ const Services = () => {
                 </p>
                 <button>Pricing & Process</button>
             </div>
-            <div data-aos='fade-up' className='practice'>
+            <div data-aos='zoom-in-up' className='practice'>
                 <img src={sexualOffencesLawIcon} alt="" />
                 <h3>Sexual Offences</h3>
                 <p>

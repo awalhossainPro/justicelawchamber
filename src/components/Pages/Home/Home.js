@@ -55,10 +55,10 @@ const Home = () => {
                 </div>
             </div>
 
-            <h1 data-aos='fade-up' style={{color:'#fff', textAlign:'center', padding:'5px 0', background:'#ab9a03', margin:'0 7%', fontWeight:'400'}}>Practice Areas (Services)</h1>
+            <h1 data-aos='flip-left' style={{color:'#fff', textAlign:'center', padding:'5px 0', background:'#ab9a03', margin:'0 7%', fontWeight:'400'}}>Practice Areas (Services)</h1>
             <Services></Services>
 
-            <div data-aos='fade-up' className='subscribe-us'>
+            <div data-aos='flip-up' className='subscribe-us'>
                 <form>
                     <span>Subscribe Our Newsletter</span>
                     <input type="email" name="email-subscribe" id="" placeholder='Enter Your Emaill Address' />
