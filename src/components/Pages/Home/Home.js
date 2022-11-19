@@ -9,7 +9,10 @@ import Aos from 'aos';
 const Home = () => {
 
     useEffect( () => {
-        Aos.init({duration: 1000});
+        Aos.init({
+            offset: 150,
+            duration: 1000
+        });
     }, []);
 
     return (
@@ -17,12 +20,12 @@ const Home = () => {
             <body></body>
 
             <div className='banner-text'>
-                <h4>Welcome to Justice Law Chamber</h4>
-                <h1>We are fighting for</h1>
-                <h1>Your Cutody</h1>
-                <p>We have helped thousands of people to get relief from national wide fights wrongfull denials. Now they tursed us. There is no lorem ipsum text</p>
+                <h4 data-aos='fade-right' >Welcome to Justice Law Chamber</h4>
+                <h1 data-aos='fade-right' >We are fighting for</h1>
+                <h1 data-aos='fade-right' >Your Cutody</h1>
+                <p data-aos='fade-right' >We have helped thousands of people to get relief from national wide fights wrongfull denials. Now they tursed us. There is no lorem ipsum text</p>
                 <br />
-                <button>Get Legal Advice</button>
+                <button data-aos='fade-left' >Get Legal Advice</button>
             </div>
 
             <div data-aos='fade-up' className='why-us'>
