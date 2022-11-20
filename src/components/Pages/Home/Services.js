@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import familyLawIcon from '../../../images/icons/practice-area/family-care.png';
+import Service from './Service';
 import './Module.Services.css';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
@@ -21,14 +21,10 @@ const Services = () => {
         <div className='practice-area'>
             {
                 service.map(singleService =>
-                    <div data-aos='zoom-in-up' className='practice'>
-                        <img src={singleService.image} alt="" />
-                        <h3>{singleService.name}</h3>
-                        <p>
-                            {singleService.description}
-                        </p>
-                        <button>Pricing & Process</button>
-                    </div>
+                    <Service
+                        key={singleService.id}
+                        singleService={singleService}
+                    ></Service>
                 )
             }
         </div>

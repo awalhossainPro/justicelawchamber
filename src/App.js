@@ -7,6 +7,7 @@ import Practice from './components/Pages/Practice/Practice';
 import Blog from './components/Pages/Blog/Blog';
 import Footer from './components/Shared/Footer/Footer';
 import Pagenotfound from './components/Pages/Pagenotfound/Pagenotfound';
+import ServiceDetail from './components/Pages/Home/ServiceDetail';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/about' element={<About></About>}></Route>
           <Route path='/practicearea' element={<Practice></Practice>}></Route>
           <Route path='/blog' element={<Blog></Blog>}></Route>
+          <Route path='/service/:serviceId' element={<ServiceDetail></ServiceDetail>}></Route>
           <Route path='*' element={<Pagenotfound></Pagenotfound>}></Route>
         </Routes>
       <Footer></Footer>

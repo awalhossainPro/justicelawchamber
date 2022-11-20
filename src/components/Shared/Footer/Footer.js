@@ -15,55 +15,55 @@ const Footer = () => {
 
     return (
         <div data-aos='fade-up' className='footer-section'>
-            <div className='footer-main'>
-                <div className='logo-social-link'>
-                    <img src={logo} width={160} className='footer-top' alt="" />
-                    <p>
+            <div data-aos='fade-up' className='footer-main'>
+                <div data-aos='fade-up' className='logo-social-link'>
+                    <img data-aos='fade-up' src={logo} width={160} className='footer-top' alt="" />
+                    <p data-aos='fade-up' >
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet ut earum est quos tempora voluptatem repudiandae rem, eveniet tempore error pariatur blanditiis officia possimus itaque vel, quia expedita veniam!
                     </p>
-                    <div className='social-icon'>
-                        <img src={facebookIcon} width={50} alt="" />
-                        <img src={linkedinIcon} width={50} alt="" />
-                        <img src={githubIcon} width={50} alt="" />
+                    <div data-aos='fade-up' className='social-icon'>
+                        <img data-aos='fade-up' src={facebookIcon} width={50} alt="" />
+                        <img data-aos='fade-up' src={linkedinIcon} width={50} alt="" />
+                        <img data-aos='fade-up' src={githubIcon} width={50} alt="" />
                     </div>
                 </div>
 
-                <div className='practice-area-list'>
-                    <h3 className='footer-top'>Practice Area</h3>
-                    <p>&#8667; Family Law</p>
-                    <p>&#8667; Business Law</p>
-                    <p>&#8667; Insurance Law</p>
-                    <p>&#8667; Criminal Law</p>
-                    <p>&#8667; Drug Offence</p>
-                    <p>&#8667; Fire Accident</p>
-                    <p>&#8667; Employment Law</p>
-                    <p>&#8667; Propoerty Law</p>
+                <div data-aos='fade-up' className='practice-area-list'>
+                    <h3 data-aos='fade-up' className='footer-top'>Practice Area</h3>
+                    <p data-aos='fade-up' >&#8667; Family Law</p>
+                    <p data-aos='fade-up' >&#8667; Business Law</p>
+                    <p data-aos='fade-up' >&#8667; Insurance Law</p>
+                    <p data-aos='fade-up' >&#8667; Criminal Law</p>
+                    <p data-aos='fade-up' >&#8667; Drug Offence</p>
+                    <p data-aos='fade-up' >&#8667; Fire Accident</p>
+                    <p data-aos='fade-up' >&#8667; Employment Law</p>
+                    <p data-aos='fade-up' >&#8667; Propoerty Law</p>
                 </div>
 
-                <div className='question-address'>
-                    <h3 className='footer-top'>Have A Questions?</h3>
-                    <p>
+                <div data-aos='fade-up' className='question-address'>
+                    <h3 data-aos='fade-up' className='footer-top'>Have A Question?</h3>
+                    <p data-aos='fade-up' >
                         99, Sample Street, Mountain Hill, Top Notch, USA
                     </p>
-                    <p>
+                    <p data-aos='fade-up' >
                         +2 88 0011223
                     </p>
-                    <p>
+                    <p data-aos='fade-up' >
                         sample_email@email.com
                     </p>
                 </div>
 
-                <div className='business-time'>
-                    <h3 className='footer-top'>Business Hours</h3>
+                <div data-aos='fade-up' className='business-time'>
+                    <h3 data-aos='fade-up' className='footer-top'>Business Hours</h3>
                     <div>
-                        <p>Opening Days:</p>
-                        <span className='time'>
+                        <p data-aos='fade-up' >Opening Days:</p>
+                        <span data-aos='fade-up' className='time'>
                             Sunday - Thursday: 09:00 AM - 08:00 PM
                             <br />
                             Sturday: 4:00 PM - 08:00 PM
                         </span>
-                        <p className='vacation-text'>Vacations:</p>
-                        <span>
+                        <p data-aos='fade-up' className='vacation-text'>Vacations:</p>
+                        <span data-aos='fade-up' >
                             All Friday's All Official Holidays
                         </span>
                     </div>

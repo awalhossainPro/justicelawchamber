@@ -1,7 +1,7 @@
 body{
     background-image: url('/public/images/head-banner.jpg');
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 0 -140px;
     background-size: auto;
     /* margin-top: 100px; */
     color: white;
@@ -37,20 +37,21 @@ body{
     padding: 10px 30px;
     border: none;
     border-radius: 4px;
-    background-color: #ab9a03;
+    background-color: #ffec43;
     cursor: pointer;
-    color: #fff;
+    color: rgb(24, 142, 0);
+    font-weight: 500;
     transition: 200ms;
 }
 
 .banner-text button:hover{
-    background-color: #7c7003;
+    background-color: #fff281;
 }
 
 .why-us{
     color: black;
-    margin-top: 250px;
-    padding: 100px;
+    margin-top: 180px;
+    padding: 0 100px 50px 100px;
     display: flex;
 }
 
@@ -109,7 +110,7 @@ body{
 .why-skills > div{
     text-align: center;
     background-color: #fff;
-    margin: -160px 20px 0 20px;
+    margin: -230px 20px 0 20px;
     padding: 30px 10px;
     border-radius: 5px 5px 0 0;
 }
