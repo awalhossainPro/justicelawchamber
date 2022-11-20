@@ -2,7 +2,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0px;
     padding: 10px 7%;
@@ -25,4 +25,17 @@ nav a{
     font-size: 16px;
     color: #fff;
     font-weight: 400;
+}
+
+.log-out{
+    background: red;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.userName{
+    color: yellow;
 }

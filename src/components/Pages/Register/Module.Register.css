@@ -1,0 +1,53 @@
+.register-page{
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.register-page img{
+    margin-top: -150px;
+    margin-bottom: 15px;
+}
+
+.all-input input{
+    width: 350px;
+    height: 30px;
+    margin: 7px 0;
+    border: 1px solid rgb(248, 221, 221);
+    border-radius: 4px;
+    background-color: rgb(255, 240, 240);
+    padding: 3px 15px;
+    font-size: 15px;
+}
+
+.register{
+    width: 380px;
+    height: 40px;
+    border: none;
+    background-color: red;
+    padding: 7px 0;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.register:hover{
+    background-color: rgb(212, 0, 0);
+}
+
+.already-registered{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.already-registered > span > a{
+    color: red;
+    text-decoration: none;
+    margin-left: 10px;
+}

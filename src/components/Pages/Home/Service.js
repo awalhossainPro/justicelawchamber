@@ -21,7 +21,7 @@ const Service = ({singleService}) => {
             <p data-aos='fade-up'>
                 {description}
             </p>
-            <button onClick={()=>navigateToServiceDetail(id)} data-aos='fade-up'>Pricing & Process</button>
+            <button onClick={()=>navigateToServiceDetail(id)} data-aos='fade-up'>Checkout</button>
         </div>
     );
 };
