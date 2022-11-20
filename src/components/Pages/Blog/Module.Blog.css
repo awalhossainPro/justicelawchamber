@@ -1,0 +1,30 @@
+.blog-section{
+    padding: 3% 7%;
+    background-color: rgba(171, 171, 171, 0.85);
+}
+
+.blog-section h1{
+    font-size: 25px;
+    font-weight: 300;
+    background-color: rgba(29, 29, 29, 0.9);
+    text-align: center;
+    padding: 1% 0;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.blog-section th{
+    background-color: rgba(27, 31, 27, 0.8);
+    text-align: center;
+    padding: 5px 0;
+}
+
+.blog-section td{
+    background-color: rgba(19, 23, 22, 0.7);
+    padding: 5px 0 5px 15px;
+}
+

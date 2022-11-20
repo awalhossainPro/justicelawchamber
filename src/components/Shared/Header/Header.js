@@ -21,10 +21,10 @@ const Header = () => {
             <nav>
                 <Link to='/'>Home</Link>
                 <Link to='/protectedpage'>Protected Page</Link>
-                <Link to='/about'>About</Link>
                 {/* <Link to='/practicearea'>Practice Areas</Link> */}
                 <Link to='/blog'>Blog</Link>
-                <Link to='/contact'>Contact</Link>
+                <Link to='/about'>About Me</Link>
+                {/* <Link to='/contact'>Contact</Link> */}
                 {
                     user ?
                     <button className='log-out' onClick={handleLogOut}>Log Out</button>
