@@ -1,8 +1,8 @@
 body{
     background-image: url('/public/images/head-banner.jpg');
     background-repeat: no-repeat;
-    background-position: 0 -140px;
-    background-size: auto;
+    background-position: 0 -100px;
+    background-size: 100%;
     /* margin-top: 100px; */
     color: white;
 }

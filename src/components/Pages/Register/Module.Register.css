@@ -9,8 +9,16 @@
 }
 
 .register-page img{
-    margin-top: -150px;
+    margin-top: -50px;
     margin-bottom: 15px;
+}
+
+.all-input{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2% 3% 2% 3%;
+    border-radius: 10px;
+    text-align: center;
+    /* margin-top: 40px; */
 }
 
 .all-input input{

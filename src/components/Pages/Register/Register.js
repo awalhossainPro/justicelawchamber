@@ -1,6 +1,6 @@
 import React from 'react';
 import './Module.Register.css';
-import logo from '../../../images/logo-blue-orange.png';
+import logo from '../../../images/logo-white.png';
 import { Link } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';

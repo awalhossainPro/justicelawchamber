@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import logo from '../../../images/logo-blue-orange.png';
+import logo from '../../../images/logo-white.png';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import SocialLogin from './SocialLogin';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
