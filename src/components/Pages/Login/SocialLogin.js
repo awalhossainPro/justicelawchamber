@@ -23,8 +23,6 @@ const SocialLogin = () => {
                 ""
             }
                 <button onClick={()=> signInWithGoogle()} className='googleLogin'>Login with google</button>
-                <button className='facebookLogin'>Login with facebook</button>
-                <button className='twitterLogin'>Login with twitter</button>
             </div>
         </div>
     );

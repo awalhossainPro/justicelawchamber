@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name":"Family Law",
-        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "description":"When researching the law, it is important to remember the four main types of law: constitutional, statutory, administrative and case (common) law.",
         "image":"images/practice-area/family-care.png"
     },
     {
         "id": 2,
         "name":"Business Law",
-        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "description":"Commercial law or business law is the body of law which governs business and commerce and is often considered to be a branch of civil law and deals both with issues of private law and public law.",
         "image":"images/practice-area/businessLaw.png"
     },
     {
         "id": 3,
         "name":"Insurance Law",
-        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "description":"Insurance is a contract in which one party (the 'insured') pays money (called a premium) and the other party promises to reimburse the first for certain types of losses (illness, property damage, or death) if they occur. ",
         "image":"images/practice-area/insurance-law.png"
     },
     {
         "id": 4,
         "name":"Criminal Law",
-        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "description":"Some popular PG-level courses offered in the field of Criminal Law are LLM in Criminal Law, LLM in Criminal and Security Law, LLM in Criminal Law and Criminal Justice and Administrative Law, LLM in Criminal and Business Law, LLM in Criminal Law and Criminal Justice, etc.",
         "image":"images/practice-area/criminal-law.png"
     },
     {
         "id": 5,
         "name":"Property Law",
-        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "description":" Subject to any restrictions imposed by law, every citizen shall have the right to acquire, hold, transfer or otherwise dispose of property, and no property shall be compulsorily acquired, nationalised or requisitioned save by authority of law.",
         "image":"images/practice-area/property-law.png"
     },
     {
         "id": 6,
         "name":"Employment Law",
-        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "description":"According to the 2006 Labor Act of Bangladesh, all employees are allowed to work for 8-hours in a single day. Any shift that exceeds the 6-hour work limit should include a 1-hour lunch break, while 5-hour shifts must have a 30-minute lunch break.",
         "image":"images/practice-area/employement-law.png"
     },
     {
         "id": 7,
         "name":"Fire Accident",
-        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "description":"While most of these injuries involve acute lung injury due to smoke or toxic fume inhalation (such as carbon monoxide), burn injuries account for about 30% of fire-related injuries. When inhalation injuries are combined with external burns, the chance of death increases significantly.",
         "image":"images/practice-area/fire-accident.png"
     },
     {
         "id": 8,
         "name":"Financial Law",
-        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "description":"Disadvantages that finance law has for businesses include the costs of excess regulation, which can make it more difficult and expensive to raise capital. This can detract from profits. Also, it can make it less feasible to develop financing in the future, thus having negative effects later as well.",
         "image":"images/practice-area/financial-laws.png"
     },
     {
         "id": 9,
         "name":"Drug Offences",
-        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "description":"A drug offence is an offence that involves a prohibited drug. If you have been charged with a drug-related offence, you should immediately seek legal advice. See Also: Drug Driving Lawyers. The quantity of the prohibited drug will determine what offence you are charged with and the penalty that may be imposed..",
         "image":"images/practice-area/drugs-offences.png"
     },
     {
         "id": 10,
         "name":"Sexual Offences",
-        "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nostrum reprehenderit quibusdam non explicabo eum nihil beatae molestiae tenetur officia.",
+        "description":"A sexual offence occurs when your physical body is interfered with in an inappropriate way by another person, that is when a person deliberately touches any part of your body including [by that person's touching] your private parts in a sexual manner or way and/or by sexual intercourse, all without your permission or ....",
         "image":"images/practice-area/sexual-offences.png"
     }
 ]

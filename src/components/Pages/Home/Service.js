@@ -5,10 +5,13 @@ import Aos from 'aos';
 import { useNavigate } from 'react-router-dom';
 
 const Service = ({singleService}) => {
+
     const {image, id, name, description} = singleService;
+    
     useEffect( () => {
         Aos.init({duration: 1000});
     }, []);
+
     const navigate = useNavigate();
     const navigateToServiceDetail = id => {
         navigate(`/service/${id}`)
@@ -19,7 +22,7 @@ const Service = ({singleService}) => {
             <img data-aos='fade-up' src={image} alt="" />
             <h3 data-aos='fade-up'>{name}</h3>
             <p data-aos='fade-up'>
-                {description}
+                {description.substring(0, 200)}
             </p>
             <button onClick={()=>navigateToServiceDetail(id)} data-aos='fade-up'>Checkout</button>
         </div>

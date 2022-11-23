@@ -1,6 +1,6 @@
 .blog-section{
     padding: 3% 7%;
-    background-color: rgba(0, 156, 125, 0.98);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgb(91, 119, 122));
 }
 
 .blog-section h1{
