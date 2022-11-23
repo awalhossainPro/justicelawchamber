@@ -28,14 +28,6 @@ const Services = () => {
                     ></Service>
                 )
             }
-            {
-                service.map(singleService =>
-                    <ServiceDetail
-                        key={singleService.id}
-                        singleService={singleService}
-                    ></ServiceDetail>
-                )
-            }
         </div>
     );
 };
